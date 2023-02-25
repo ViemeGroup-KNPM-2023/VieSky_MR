@@ -1,0 +1,29 @@
+{
+  "name": "vieskyrestaurant_knpm",
+  "version": "1.0.0",
+  "description": "ứng dụng quản lý nhà hàng",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViemeGroup-KNPM-2023/VieSky_MR.git"
+  },
+  "keywords": [
+    "Vieme",
+    "VieSky",
+    "VieSkyRestaurant",
+    "Vie_MR"
+  ],
+  "author": "TinNguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViemeGroup-KNPM-2023/VieSky_MR/issues"
+  },
+  "homepage": "https://github.com/ViemeGroup-KNPM-2023/VieSky_MR#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7"
+  }
+}
