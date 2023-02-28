@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Oswald&family=Pacifico&family=Roboto&display=swap');
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+/* Header */
+.NavBar {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    padding: 0 16px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.NavBar__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NavBar__logo button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.NavBar__logo button .fa-bars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+}
+
+.NavBar__logo a {
+    text-decoration: none;
+    width: 56px;
+    height: 56px;
+    margin-left: 8px;
+}
+
+.NavBar__logo a img {
+    height: 100%;
+    width: 100%;
+}
+
+/* NavBar center */
+
+/* Element Search */
+.Search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 600px;
+    border-radius: 40px;
+    border: 1px solid rgba(110, 144, 160, 0.4);
+    padding: 0 16px;
+}
+
+.Search .btnSearch{
+    border: 0;
+    background-color: #ffffff;
+    height: 24px;
+    width: 24px;
+}
+
+.Search input {
+    height: 24px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-right: 12px;
+    font-size: 16px;
+}
+
+.Search .btnSearch .fa-search {
+    font-size: 18px;
+    padding: 3px;
+    color: #C4CACD;
+}
+
+/* Navbar right */
+.NavBar__right__infoUser {
+    display: flex;
+    background-color: rgba(219, 231, 245, 1);
+    height: 48px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boxInfo_right {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+#avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* SlideBar */
+
+.SlideBar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+/* Navigation Rail */
+.SlideBar__navigationRail {
+    width: 224px;
+    padding: 0 12px;
+}
+
+.SlideBar__list li {
+    list-style-type: none;
+    margin: 12px 0;
+    height: 40px;
+    width: 200px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SlideBar__list li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SlideBar__list li:hover{
+    background-color: rgba(213, 230, 251, 1);
+    border-radius: 8px;
+}
+
+.SlideBar__list li a .fas,
+.SlideBar__list li a .far {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #030303
+}
+
+.SlideBar__tile {
+    font-size: 16px;
+    width: 132px;
+    line-height: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #0f0f0f;
+}
+
+/* SlideBar content */
+
+.SlideBar__content {
+    width: 100%;
+    /* overflow-y: scroll; */
+}

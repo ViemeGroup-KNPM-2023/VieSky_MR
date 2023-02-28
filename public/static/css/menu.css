@@ -1,0 +1,355 @@
+.SlideBar__content {
+    background-color: #D5E6FB;
+    padding: 12px;
+    position: relative;
+}
+
+.navHeader__content__select {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDD888;
+    padding: 4px;
+    border-radius: 16px;
+    margin: 0 8px;
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.navHeader__content {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navHeader__content__box {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3b3b3b;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.navHeader__content__box .navHeader__content__icon {
+    font-size: 30px;
+}
+
+.navHeader__content__box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navHeader__content__title {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navHeader__content__left {
+    display: flex;
+}
+
+/* header right content */
+.navHeader__content__right {
+    display: flex;
+    margin-right: 8px;
+}
+
+.btnHeaderMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #60ffcf;
+    padding: 4px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.box_icon_headermenu {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btnHeaderMenu .fas {
+    font-size: 20px;
+    color: #cc8c0c;
+}
+
+.btnHeaderMenu .title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.btn_add {
+    margin-right: 20px;
+}
+
+/* section menu */
+.container-food {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.box-food {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 9px;
+    margin-top: 18px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.box-food .img-food {
+    height: 110px;
+    width: 100%;
+    position: relative;
+}
+
+.checkbox-food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    right: 0;
+    border-radius: 50%;
+}
+
+.box-food .img-food img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box-food__footer__left {
+    color: #cc8c0c;
+    font-weight: 600;
+}
+
+.box-food__footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-food .title {
+    margin: 2px 0;
+}
+
+.box-food .subTitle {
+    font-size: 12px;
+}
+
+.box-food .cost-food {
+    margin: 4px 0;
+}
+
+.box-food button {
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+
+.box-food button .fas {
+    font-size: 20px;
+}
+
+/* Add Food new */
+.Form-CreateFood-Left {
+    padding-left: 32px;
+}
+
+.Form-CreateFood-Right {
+    padding-right: 80px;
+}
+
+.Form_AddFood {
+    width: 60%;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 8px;
+    position: fixed;
+}
+
+.Form_AddFood__header {
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 32px;
+    color: #0060FF;
+}
+
+.Form_AddFood_ID {
+    display: flex;
+    padding: 8px 32px;
+    font-size: 20px;
+}
+
+.Form_AddFood_ID .ID_Food {
+    color: #0060FF;
+    padding: 0 8px;
+}
+
+.Form-CreateFood {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Create_NameFood,
+.Create_TypeFood,
+.Create_CostFood {
+    margin-top: 16px;
+}
+
+.Create_NameFood input {
+    width: 210px;
+    height: 38px;
+    border: 2px solid #62A6F9;
+    font-weight: 600;
+    padding-left: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 8px;
+}
+
+.box_typeFood {
+    border: 2px solid #62A6F9;
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    height: 38px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.box_typeFood div {
+    color: #ccc;
+}
+
+.box_typeFood .fas {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropMenu {
+    width: 210px;
+    border: 1px solid #0060FF;
+    margin-top: 8px;
+    display: none;
+}
+
+.dropMenu .itemMenu {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.dropMenu .itemMenu:hover {
+    background-color: #D5E6FB;
+    cursor: pointer;
+}
+
+.Create_ImageFood .show-img {
+    width: 200px;
+    height: 200px;
+    border: 1px dashed #b1154a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.Create_ImageFood h3 {
+    margin-bottom: 8px;
+}
+
+.show-img .fas {
+    font-size: 40px;
+}
+
+.show-img .img_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Create_CostFood input {
+    width: 210px;
+    height: 38px;
+    border: 2px solid #62A6F9;
+    font-weight: 600;
+    padding-left: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 8px;
+}
+
+.container_btnCreateFood button {
+    margin-top: 32px;
+    height: 30px;
+    width: 80px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container_btnCreateFood .Exit__CreateFood {
+    background-color: #cc8c0c;
+    margin-right: 40px;
+}
+
+.container_btnCreateFood .Add__CreateFood {
+    background-color: #0060FF;
+}
+
+/* hinden background */
+
+.HidenBackground {
+    background-color: #1e1c1c5f;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
